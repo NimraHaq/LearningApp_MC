@@ -42,6 +42,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.quiz:
                 //if user wants to take quiz
+                Intent intent2 = new Intent(MainActivity.this, Quiz.class);
+                startActivity(intent2);
                 break;
             case R.id.repository:
                 //if user wants to visit repository

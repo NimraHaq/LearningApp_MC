@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/MobileComputingApps/LearningApp/app/src/main/res/drawable/button_border.xml" value="0.137" />
+        <entry key="..\:/MobileComputingApps/LearningApp/app/src/main/res/layout-land/activity_alphabet_images.xml" value="0.26927083333333335" />
+        <entry key="..\:/MobileComputingApps/LearningApp/app/src/main/res/layout-land/activity_learn.xml" value="0.26927083333333335" />
         <entry key="..\:/MobileComputingApps/LearningApp/app/src/main/res/layout-land/activity_main.xml" value="0.20729166666666668" />
         <entry key="..\:/MobileComputingApps/LearningApp/app/src/main/res/layout/activity_alphabet_images.xml" value="0.20416666666666666" />
         <entry key="..\:/MobileComputingApps/LearningApp/app/src/main/res/layout/activity_learn.xml" value="0.2" />

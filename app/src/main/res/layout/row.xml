@@ -19,6 +19,7 @@
             android:id="@+id/listViewImage"
             android:layout_width="115dp"
             android:layout_height="match_parent"
+            android:paddingStart="10dp"
             app:srcCompat="@drawable/d" />
 
         <TextView

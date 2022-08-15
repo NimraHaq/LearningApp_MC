@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.repository:
                 //if user wants to visit repository
-                Uri uri = Uri.parse("https://github.com/NimraHaq?tab=repositories");
+                Uri uri = Uri.parse("https://github.com/NimraHaq/LearningApp_MC");
                 startActivity(new Intent(Intent.ACTION_VIEW, uri));
                 break;
         }

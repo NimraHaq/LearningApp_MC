@@ -12,6 +12,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
+import java.util.Locale;
+
 public class MyAdaptor extends ArrayAdapter
 {
     String[] ListText;
@@ -33,7 +35,7 @@ public class MyAdaptor extends ArrayAdapter
         TextView textView =  view.findViewById(R.id.listViewText);
         ImageView imageView =  view.findViewById(R.id.listViewImage);
 
-        textView.setText(ListText[position]);
+        textView.setText(ListText[position] + ListText[position].toLowerCase(Locale.ROOT));
         imageView.setImageResource(Images[position]);
 
         return view;

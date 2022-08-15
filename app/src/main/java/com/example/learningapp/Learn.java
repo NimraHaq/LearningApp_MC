@@ -28,7 +28,6 @@ public class Learn extends AppCompatActivity
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 intent = new Intent(Learn.this, AlphabetImages.class);
-                intent.putExtra("text", listText[i]);
                 intent.putExtra("image", images[i]);
 
 

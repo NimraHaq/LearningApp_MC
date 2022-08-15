@@ -19,6 +19,5 @@ public class AlphabetImages extends AppCompatActivity
         img.setImageResource(imgId);
 
 
-        }
     }
 }

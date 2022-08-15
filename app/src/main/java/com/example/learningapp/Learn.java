@@ -29,7 +29,7 @@ public class Learn extends AppCompatActivity
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 intent = new Intent(Learn.this, AlphabetImages.class);
                 intent.putExtra("image", images[i]);
-
+                startActivity(intent);
 
             }
         });
